@@ -323,7 +323,7 @@ void AccessibilityBridge::SetRoleFromFlutterUpdate(ui::AXNodeData& node_data,
     return;
   }
   if (flags & FlutterSemanticsFlag::kFlutterSemanticsFlagIsHeader) {
-    node_data.role = ax::mojom::Role::kHeader;
+    node_data.role = ax::mojom::Role::kHeading;
     return;
   }
   if (flags & FlutterSemanticsFlag::kFlutterSemanticsFlagIsImage) {

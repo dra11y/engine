@@ -212,8 +212,10 @@ enum class Role {
   // --------------------------------------------------------------
   kGrid,
   kGroup,
+  // Header is a banner region, as opposed to a text heading, which is kHeading.
   kHeader,
   kHeaderAsNonLandmark,
+  // Text heading, i.e. h1, h2, etc.
   kHeading,
   kIframe,
   kIframePresentational,
